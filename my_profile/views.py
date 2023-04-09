@@ -7,7 +7,6 @@ class HomePageView(TemplateView):
 class AboutUsView(TemplateView):
     template_name = "home/pages/about_me.html"
 
-
 class AuthorView(TemplateView):
     template_name = "home/pages/about_me.html"
 
