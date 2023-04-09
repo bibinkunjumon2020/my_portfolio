@@ -115,6 +115,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 print("Media ROOT",settings.MEDIA_ROOT)
 print("media URL",MEDIA_URL)
+print("STATIC ROOT",STATIC_URL)
+print("STATIC DIRS",settings.STATICFILES_DIRS[0])
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
