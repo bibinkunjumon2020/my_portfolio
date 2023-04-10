@@ -2,6 +2,7 @@
 # My Portfolio
 
 Creating a website to display your resume is a great way to showcase your skills and experience to potential employers and clients in a modern and interactive format. With the right design and content, your online resume can help you stand out from the competition and make a lasting impression on your visitors.
+<span style="color:blue">This text is blue.</span>
 
 
 ## Commands And Steps-Django
