@@ -245,6 +245,7 @@ sudo certbot --nginx -d YOUR DOMAIN
 Once the SSL certificate is generated and installed, it will encrypt the traffic between the website and its visitors, providing a secure browsing experience.
 ## Screenshots of Website
 
+![benjamin-lehman-GNyjCePVRs8-unsplash (1)](https://user-images.githubusercontent.com/104210649/230861071-438767c3-3126-48ce-b966-bcda705f22e0.jpg)
 
 
 
