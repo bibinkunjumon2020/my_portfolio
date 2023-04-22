@@ -1,111 +1,526 @@
 <!doctype html>
 <html lang="en">
 {% load static %}
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>I am Bibin</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-            crossorigin="anonymous"></script>
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 
 </head>
+
 <body>
-<!-- HEad navbar -->
+    <!-- HEad navbar -->
 
-<nav class="navbar" style="background-color: #e3f2fd;">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="{% static 'assets/home/img/programer.png' %}" alt="Bootstrap" width="50" height="50">
-            Python Developer with a Passion for AI, GPT, and Django Development
-        </a>
-    </div>
-</nav>
-<!-- EBD -->
-<!-- Footer -->
-<nav class="navbar fixed-bottom bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">"An investment in knowledge pays the best interest." - Benjamin Franklin</a>
-    </div>
-</nav>
-<!-- END -->
-<div class="container mt-4">
-    <div class="card text-bg-light mb-3">
-        <div class="row g-0">
-            <div class="col-md-4">
-                <img src="{% static 'assets/home/img/bibin_3.jpg' %}" class="img-fluid rounded-start" alt="..."
-                     width="300px">
-            </div>
-            <div class="col-md-8 position-relative ">
-                <div class="card-body mt-5">
-                    <h2 class="card-title mt-3">Bibin Kunjumon</h2>
-                    <div class="badge bg-primary text-wrap position-absolute top-0 end-0" style="width: 18rem;">
-                        <h3 class="card-title mt-3 ms-1 ">Full Stack</h3>
+    <nav class="navbar" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="{% static 'assets/home/img/programer.png' %}" alt="Bootstrap" width="50" height="50">
+            </a>
+            <span class="navbar-text">
+                Python Developer with a Passion for AI, GPT, and Django Development
+            </span>
+        </div>
+    </nav>
+    <!-- EBD -->
+    <!-- Footer -->
+    <nav class="navbar fixed-bottom bg-body-tertiary">
+        <div class="container-fluid">
+            <span class="navbar-text">
+                An investment in knowledge pays the best interest." - Benjamin Franklin
+            </span>
+        </div>
+    </nav>
+    <!-- END -->
+    <div class="container mt-4">
+        <div class="card text-bg-light mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="{% static 'assets/home/img/bibin_3.jpg' %}" class="img-fluid rounded-start" alt="..."
+                        width="300px">
+                </div>
+                <div class="col-md-8 position-relative ">
+                    <div class="card-body mt-5">
+                        <h2 class="card-title mt-3">Bibin Kunjumon</h2>
+                        <div class="badge bg-primary text-wrap position-absolute top-0 end-0" style="width: 18rem;">
+                            <h3 class="card-title mt-3 ms-1 ">Full Stack</h3>
+                        </div>
+                        <h5 class="card-title text-muted mt-3">Python,Golang,Django,Angualr,Docker,Celery,AWS</h5>
+                        <p class="card-text text-justify m-3 ">
+                            I am a skilled software developer with over three years of experience in delivering secure
+                            and reliable applications. My expertise lies in back-end user development and AI-related
+                            work.
+                            Currently, I am employed as an AI and Full Stack Django Web Developer at Sayone Technology
+                            Ltd., a US-based IT firm. I have a strong background in Python programming and am dedicated
+                            to
+                            continuously improving my skills and knowledge in the field.
+
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated :08 April 2023</small></p>
                     </div>
-                    <h5 class="card-title text-muted mt-3">Python,Golang,Django,Angualr,Docker,Celery,AWS</h5>
-                    <p class="card-text text-justify m-3 ">
-                        I am a skilled software developer with over three years of experience in delivering secure
-                        and reliable applications. My expertise lies in back-end user development and AI-related work.
-                        Currently, I am employed as an AI and Full Stack Django Web Developer at Sayone Technology
-                        Ltd., a US-based IT firm. I have a strong background in Python programming and am dedicated to
-                        continuously improving my skills and knowledge in the field.
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <img src="{% static 'assets/home/img/brain.jpeg' %}" height="200px">
+        </div>
+        <!-- Grid Card system-->
+        <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="{% static 'assets/home/img/sayone.jpeg' %}" class="card-img-top" alt="..."
+                            height="300">
+
+                        <h3 class="card-title">Python Engineer</h3>
+                        <h5 class="card-title text-muted mt-3">SayOne Technologies,Kochi,India.</h5>
+                        <h5 class="card-title text-muted mt-3">Active</h5>
+                        <p class="card-text text-center">As a seasoned developer with extensive experience in natural
+                            language
+                            processing, machine learning, and e-commerce web development, I have developed and
+                            fine-tuned
+                            GPT-3 models for a variety of applications, including chat bot development and virtual
+                            avatar
+                            development projects. <br>In addition, I have designed and developed e-commerce web
+                            platforms,
+                            defining standard REST endpoints and integrating with SQL and PostgreSQL databases.
+                            Leveraging
+                            AWS services, I have deployed and scaled web applications, ensuring optimal performance and
+                            reliability.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="{% static 'assets/home/img/robot.jpeg' %}" class="card-img-top" alt="..." height="300">
+                    <div class="card-body">
+                        <h3 class="card-title">Masters AI & Robotics</h3>
+                        <h5 class="card-title text-muted mt-3">ITMO University,Ulitsa Lomonosova, 9, St Petersburg,
+                            Russia,
+                            191002</h5>
+                        <h5 class="card-title text-muted mt-3">Active</h5>
+
+                        <p class="card-text">The program aims to train researchers and developers with a distinctive set
+                            of
+                            competencies at the intersection of robotics and artificial intelligence who exhibit a
+                            systematic and critical thinking and can solve complex tasks using a range of industrial and
+                            service robotics apps associated with the development of mathematical, algorithmical, and
+                            program software to design, optimize, and humanize robots, organize human-machine and
+                            machine-to-machine interactions, as well as systems for traffic planning, automatic control,
+                            and
+                            decision-making.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mb-4">
+            <h2 style="color:red;">My Recent Project Works</h2>
+        </div>
+
+        <!-- Project 1 : START-->
+        <div class="card mt-5">
+            <div class="card-header" style="background:orange" ;>
+                <h5 class="card-title m-3">Project Title : Telegram Bot</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p>The 'botbibi' ,Telegram Bot app is a Python-based application that allows users to access various
+                        functionalities .
+                        The bot provides four main functionalities, including weather checking, poll creation and
+                        posting in group,
+                        access to random images from the internet, and currency exchange.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">Brief</h5>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <p>
+                        The weather checking function enables users to check the current weather of a specific location.
+                        Users can enter the name of the city, and the bot will provide the current temperature and
+                        weather conditions.
+                        <br>The poll creation and posting in group feature allows users to create a poll and post it in
+                        a Telegram group. Users can enter the poll question and options, and the bot will create the
+                        poll and post it in the specified group.
+
+                        <br>The access to random images from the internet function allows users to access random images
+                        of animals from the internet.
+
+                        The currency exchange feature allows users to exchange a fixed amount of currency from one type
+                        to another. Users can enter the amount, the currency type they wish to exchange from and to, and
+                        the bot will return the upto date exchanged amount.
+
+                        <br>The Telegram Bot app is built using Python and relies on the aiogram library for Telegram
+                        bot integration. The application also utilizes other Python libraries, including requests, json,
+                        aiohttp, and logging, to provide its functionalities. The app is modular and follows good coding
+                        practices, allowing for easy maintenance and updates.
+
+                        <br>By adding the image in Docker, anyone can easily pull it and supply APIs to use it in their
+                        projects. This makes it easier for developers to integrate the bot into their own applications
+                        without having to worry about the underlying infrastructure.
+                        <br>Moreover, the live bot is hosted on a server, which ensures that the bot is available for
+                        testing 24/7. This means that users can access the bot at any time and get the information they
+                        need without any downtime. This makes the bot a reliable tool for users who rely on it for their
+                        day-to-day needs.
 
                     </p>
-                    <p class="card-text"><small class="text-body-secondary">Last updated :08 April 2023</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="text-center">
-        <img src="{% static 'assets/home/img/brain.jpeg' %}" height="200px">
-    </div>
-    <!-- Grid Card system-->
-    <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
-        <div class="col">
-            <div class="card">
-                <div class="card-body">
-                    <img src="{% static 'assets/home/img/sayone.jpeg' %}" class="card-img-top" alt="..." height="300">
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title"> aiogram || Package || Python || Docker || Kubernetes ||
+                            Certbot</h5>
+                    </div>
+                </li>
 
-                    <h3 class="card-title">Python Engineer</h3>
-                    <h5 class="card-title text-muted mt-3">SayOne Technologies,Kochi,India.</h5>
-                    <p class="card-text text-center">As a seasoned developer with extensive experience in natural
-                        language
-                        processing, machine learning, and e-commerce web development, I have developed and fine-tuned
-                        GPT-3 models for a variety of applications, including chat bot development and virtual avatar
-                        development projects. <br>In addition, I have designed and developed e-commerce web platforms,
-                        defining standard REST endpoints and integrating with SQL and PostgreSQL databases. Leveraging
-                        AWS services, I have deployed and scaled web applications, ensuring optimal performance and
-                        reliability.
+                <li class="list-group-item">
+                    <div class="card-body">
+                        <a href="https://github.com/bibinkunjumon2020/TelegramBot" class="card-link">Github Link</a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Project 1 : END-->
+
+
+
+        <!-- Project 2 : START-->
+        <div class="card mt-5">
+            <div class="card-header" style="background:orange" ;>
+                <h5 class="card-title m-3">Project Title : My Portfolio</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p>Creating a website to display your resume is a great way to showcase your skills and experience
+                        to
+                        potential employers and clients in a modern and interactive format. With the right design and
+                        content,
+                        your online resume can help you stand out from the competition and make a lasting impression on
+                        your
+                        visitors.</p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">Brief</h5>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <p>
+                        I used Amazon Web Services (AWS) to host my website, leveraging several of their powerful
+                        services.
+                        Firstly, I utilized Amazon Elastic Compute Cloud (EC2) to create a virtual machine instance that
+                        served as my web server.
+                        <br>I then used Route 53, Amazon's Domain Name System (DNS) service, to
+                        register my domain name and point it to the IP address of my EC2 instance.
+
+                        <br>To serve my website content to visitors, I used the NGINX web server software, which
+                        provides
+                        powerful
+                        and efficient serving of static and dynamic content. I also employed Supervisor, a process
+                        control
+                        system, to manage the NGINX and Gunicorn processes and ensure that they remained running in the
+                        background.
+
+                        <br>Finally, to secure my website, I used the Certbot tool to install SSL/TLS certificates from
+                        Let's
+                        Encrypt. This provides encrypted communication between my server and visitors' browsers,
+                        ensuring
+                        that
+                        sensitive information remains protected.
+
+                        <br>Overall, AWS provided a robust and scalable infrastructure for hosting my website, with a
+                        range
+                        of
+                        powerful tools and services to help ensure reliable and secure operation.
+
+
                     </p>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card">
-                <img src="{% static 'assets/home/img/robot.jpeg' %}" class="card-img-top" alt="..." height="300">
-                <div class="card-body">
-                    <h3 class="card-title">Masters AI & Robotics</h3>
-                    <h5 class="card-title text-muted mt-3">ITMO University,Ulitsa Lomonosova, 9, St Petersburg, Russia,
-                        191002</h5>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">AWS-EC2,S3,DNS,Route 53 || Django || Python || NGINX || Gunicorn ||
+                            Certbot</h5>
+                    </div>
+                </li>
 
-                    <p class="card-text">The program aims to train researchers and developers with a distinctive set of
-                        competencies at the intersection of robotics and artificial intelligence who exhibit a
-                        systematic and critical thinking and can solve complex tasks using a range of industrial and
-                        service robotics apps associated with the development of mathematical, algorithmical, and
-                        program software to design, optimize, and humanize robots, organize human-machine and
-                        machine-to-machine interactions, as well as systems for traffic planning, automatic control, and
-                        decision-making.</p>
-                </div>
-            </div>
+                <li class="list-group-item">
+                    <div class="card-body">
+                        <a href="https://github.com/bibinkunjumon2020/my_portfolio" class="card-link">Github Link</a>
+
+                    </div>
+                </li>
+
+            </ul>
         </div>
+
+        <!-- Project 3 : START-->
+
+        <div class="card mt-5">
+            <div class="card-header" style="background:orange" ;>
+                <h5 class="card-title m-3">Project Title : AskYourBook</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p>
+                        A fully functional and user-friendly web application that provides a platform for users to
+                        upload
+                        their PDF documents to train the GPT model. Once trained,
+                        the model will be capable of answering user questions based on the content of the uploaded
+                        documents. The web application will provide a smooth and intuitive user interface, enabling
+                        users to
+                        easily upload their PDFs and interact with the GPT model to get the desired answers to their
+                        questions. This app will be a valuable tool for anyone seeking to extract information from PDF
+                        documents quickly and accurately, without the need for manual data entry or extensive reading.
+
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">Brief</h5>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <p>
+                        The app will use the SimpleDirectoryReader and GPTSimpleVectorIndex classes from the gpt_index
+                        module to create the GPT index, and it will use the LLMPredictor class to predict the output of
+                        the
+                        GPT model. Additionally, the PromptHelper class will be used to help construct GPT prompts.
+                        <br>
+                        The app will interact with the OpenAI API to perform these tasks, and it will set an environment
+                        variable OPENAI_API_KEY to authenticate with the OpenAI API. The end result will be a web
+                        application that allows users to upload PDF documents to train the GPT model, and then use the
+                        model
+                        to answer questions. The app may also include features such as search functionality and
+                        visualization of the trained model's performance.
+                        <br>The target audience for this project could be
+                        researchers, developers, or anyone interested in natural language processing or document
+                        analysis.
+
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">GPT || LLAMA INDEX || Langchain || Django || Python || OPEN AI</h5>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="card-body">
+                        <a href="https://github.com/bibinkunjumon2020/AskYourBook" class="card-link">Github Link</a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <!--Project 3 :END -->
+
+        <!-- Project 4 : START-->
+
+        <div class="card mt-5">
+            <div class="card-header" style="background:orange;">
+                <h5 class="card-title  m-3">Project Title : BlogApp</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p>
+                        The Blog app is a simple web application built using Django framework that allows users to
+                        create
+                        and publish blog posts. The application also includes a commenting system where users can leave
+                        comments on blog posts.
+                        <br>
+
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">Brief</h5>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <p>
+                        The main features of the Blog app include:
+                        <br>
+                        Create, edit, and delete blog posts: Users can create new blog posts, edit existing ones, and
+                        delete
+                        posts they no longer want to have on their blog. Commenting system: Users can leave comments on
+                        blog
+                        posts, which are displayed below the post. They can also edit or delete their own comments if
+                        they
+                        need to. Responsive design: The application is designed to work on different screen sizes,
+                        including
+                        desktop and mobile devices.
+
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title"> Python || Django || SQL </h5>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="card-body">
+                        <a href="https://github.com/bibinkunjumon2020/BlogApp" class="card-link">Github Link</a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <!--Project 4 :END -->
+
+        <!-- Project 5 : START-->
+
+        <div class="card mt-5">
+            <div class="card-header" style="background:orange;">
+                <h5 class="card-title  m-3">Project Title : Whisper </h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p>
+                        Chat app.This project is a chat application built using Django Channels and WebSocket protocol.
+                        It allows multiple users to join a chat room and send and receive messages in real-time.
+                        <br>
+
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">Brief</h5>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <p>
+                        The main features of the Whisper app include:
+                        <br>
+                        When a user joins the chat room, the user is assigned a unique WebSocket channel, and the user's
+                        messages are sent through this channel.
+                        Other users in the same chat room can listen to this channel and receive the messages.
+                        <br>
+                        The tools used in this project are Django, Django Channels, WebSocket, JavaScript, HTML, and
+                        CSS.
+                        Django is a high-level Python web framework used for rapid development, and Django Channels is
+                        an extension that allows the use of WebSockets and asynchronous code in Django.
+                        WebSocket is a protocol that provides a two-way communication channel between a client and a
+                        server over a single TCP connection.
+                        JavaScript, HTML, and CSS are used to create the frontend of the chat application.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title"> Python || Django || WebSocket || Django Channels || TCP || JavaScript
+                        </h5>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="card-body">
+                        <a href="https://github.com/bibinkunjumon2020/Whisper" class="card-link">Github Link</a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <!--Project 5 :END -->
+
+        <!-- Project 6 : START-->
+
+        <div class="card mt-5">
+            <div class="card-header" style="background:orange;">
+                <h5 class="card-title  m-3">Project Title : JobHub </h5>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <p>
+                        CJobportal is a Django-based web application that aims to provide a platform for employers to
+                        post job listings and for job seekers to search and apply for jobs.
+                        <br>
+
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title">Brief</h5>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <p>
+                        The application has several key features, including:
+                        <br>
+                        User registration and authentication: The application allows users to create an account, log in,
+                        and log out.
+                        <br>
+                        Job listing creation and management: Employers can create and manage job listings, including
+                        specifying job requirements, duties, and qualifications.
+                        <br>
+                        Job search and filtering: Job seekers can search for jobs based on keywords, location, category,
+                        and other filters.
+                        <br>
+                        Application submission: Job seekers can apply for jobs by submitting their resume and cover
+                        letter through the application.
+                        <br>
+                        Email notifications: Users receive email notifications when new job listings are posted or when
+                        their job applications are received or updated.
+                        <br>
+                        Admin panel: The application includes an admin panel that allows administrators to manage users,
+                        job listings, and other aspects of the system.
+                        <br>
+                        The application uses Django's built-in authentication system and ORM to manage users and job
+                        listings. The frontend is built using HTML, CSS, and JavaScript, and is styled using Bootstrap.
+
+                        The application is deployed on a cloud platform, such as AWS or Heroku, and uses a relational
+                        database, such as PostgreSQL, to store data.
+                    </p>
+                </li>
+                <li class="list-group-item">
+                    <div class="card-header">
+                        <h5 class="card-title"> Python || Django || Heroku || AWS s3 || CSS || HTML ||PostgreSQL
+                        </h5>
+
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="card-body">
+                        <a href="https://github.com/bibinkunjumon2020/JobHub" class="card-link">Github Link</a>
+
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <!--Project 6 :END -->
+
+
+        <div class="row m-5">
+
+        </div>
+
     </div>
-    <div class="row m-5"></div>
-
-</div>
 </body>
-
 
 </html>
